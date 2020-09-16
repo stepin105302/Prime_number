@@ -5,8 +5,10 @@ PROJECT_NAME = Prime
 BUILD = build
 
 # All source code files
-SRC = main.c\
+SRC = unity/unity.c\
 src/Prime.c\
+test/test_prime.c\
+main.c
 
 # All test source files
 TEST_SRC = test/test_prime.c
