@@ -11,4 +11,4 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get -y install cppcheck
       - name: Cppcheck code
-        run: cppcheck stepin105302/Prime_number
+        run: cppcheck 
