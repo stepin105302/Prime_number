@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Prime
+PROJECT_NAME = Prime_number
 
 # Output directory
 BUILD = build
