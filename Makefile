@@ -7,6 +7,7 @@ BUILD = build
 # All source code files
 SRC = main.c\
 src/Prime.c\
+test/test_prime.c
 
 # All test source files
 TEST_SRC = test/test_prime.c
