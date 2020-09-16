@@ -14,7 +14,9 @@ TEST_SRC = test/test_prime.c
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
-INC	= -Iinc
+INC	= -Iinc\
+-Iunity\
+-Itest
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
