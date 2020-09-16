@@ -11,7 +11,10 @@ test/test_prime.c\
 main.c
 
 # All test source files
-TEST_SRC = test/test_prime.c
+TEST_SRC = unity/unity.c\
+src/Prime.c\
+test/test_prime.c\
+main.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
